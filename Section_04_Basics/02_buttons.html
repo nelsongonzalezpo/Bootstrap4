@@ -13,10 +13,18 @@
     <title>Buttons</title>
 </head>
 
+<style>
+    .primary{
+        background-color:rgb(174, 127, 255) !important;
+        border: none;
+        /* color: rgb(174, 127, 255) !important; */
+    }
+</style>
+
 <body>
     <div class="container">
         <h1>Regular Buttons</h1>
-        <button class="btn btn-primary">Click Me</button>
+        <button class="btn btn-primary primary">Click Me</button>
         <button class="btn btn-secondary">Click Me</button>
         <button class="btn btn-success">Click Me</button>
         <button class="btn btn-info">Click Me</button>
@@ -32,7 +40,7 @@
         <a href="" class="btn btn-success">THIS IS A LINK!</a>
        
         <h1>Outline Buttons</h1>
-        <button class="btn btn-outline-primary">Click Me</button>
+        <button class="btn btn-outline-primary primary">Click Me</button>
         <button class="btn btn-outline-secondary">Click Me</button>
         <button class="btn btn-outline-success">Click Me</button>
         <button class="btn btn-outline-info">Click Me</button>
@@ -43,10 +51,11 @@
         <button class="btn btn-info btn-sm">Small Button</button>
         <button class="btn btn-info">Regular Button</button>
         <button class="btn btn-info btn-lg">Large Button</button>
-        
+
         <h1>Block Level Buttons</h1>
         <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
         <button type="button" class="btn btn-dark btn-block">Block level button</button>
+        <button type="button" class="btn btn-danger btn-sm btn-block">Block level button</button>
         <button type="button" class="btn btn-danger btn-sm btn-block">Block level button</button>
 
         <h1>Button States</h1>
