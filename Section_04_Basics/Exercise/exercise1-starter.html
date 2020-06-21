@@ -13,24 +13,29 @@
     <title>Exercise</title>
 </head>
 
+
+
 <body>
+
+   
+
     <h1>PART 1</h1>
     <hr>
     <div class="container">
-        <h3>Make me blue (primary) and display size 4</h3>
-        <h6>Make me look like an h1</h6>
+        <h3 class='display-4 text-primary'>Make me blue (primary) and display size 4</h3>
+        <h6 class='h1'>Make me look like an h1</h6>
 
-        <button>Large Red Button</button>
-        <button>Regular Yellow Button</button>
-        <button>Small Green Button</button>
-        <a href="#">Large Light Blue Outline Button</a>
-        <a href="#">Small green Outline Button With Red Text</a>
+        <button class='btn btn-lg btn-danger'>Large Red Button</button>
+        <button class='btn btn-warning'>Regular Yellow Button</button>
+        <button class='btn btn-sm btn-success'>Small Green Button</button>
+        <a class='btn btn-lg btn-outline-info' href="#">Large Light Blue Outline Button</a>
+        <a class='btn btn-sm btn-outline-success text-danger' href="#">Small green Outline Button With Red Text</a>
 
-        <h1>Big text <small>make me muted</small></h1>
+        <h1>Big text <small class='text-muted'>make me muted</small></h1>
 
-        <p>Dark background white text AND center aligned</p>
+        <p class='bg-dark text-light text-center'>Dark background white text AND center aligned</p>
 
-        <button>make me look like a link, not a button</button>
+        <button class='btn btn-link'>make me look like a link, not a button</button>
     </div>
 
     <h1>PART 2</h1>
@@ -38,6 +43,54 @@
     <!-- See the screenshot included in this folder -->
     <!-- BG Image URL: https://images.unsplash.com/photo-1514418197935-e0cac2bb695a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73703fc107d2c3f2835ec8af1f981c25&auto=format&fit=crop&w=1950&q=80 -->
     <!-- Add your markup below -->
+
+    <div class="container">
+        <div class="jumbotron">
+
+            <h1 class='display-3'>My Website</h1>
+            <p class='lead'>This is the best website I have ever used, and I strongly encourage everyone to pay lots of
+                money for it.</p>
+
+            <blockquote class='blockquote'>
+                <p class="blockquote-footer">Satisfied Customer</p>
+            </blockquote>
+
+            <button class="btn btn-info">
+                Subscribe
+            </button>
+
+        </div>
+    </div>
+
+        <div id='jumbo' class="jumbotron jumbotron-fluid">
+
+            <div class="container">
+                 <h1 class="display-4">
+                     This is Fog
+                 </h1>
+
+                 <p class='lead'>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates repudiandae quos sed at
+                     dolorum
+                     mollitia hic ad ullam necessitatibus?
+                 </p>
+
+                 <button class="btn btn-success btn-lg">
+                     Try it today!
+                 </button>
+
+            </div>
+       
+
+        </div>
+
+     <style>
+         #jumbo {
+             background: url('https://images.unsplash.com/photo-1514418197935-e0cac2bb695a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=73703fc107d2c3f2835ec8af1f981c25&auto=format&fit=crop&w=1950&q=80');
+             background-position: center;
+
+         }
+     </style>
 
 
 
