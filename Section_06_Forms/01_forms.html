@@ -14,62 +14,79 @@
 </head>
 
 <body>
+
     <div class="container">
         <h1>Form Controls</h1>
-        <form>
+
+        <form action="">
+           
             <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                <input id='email' class='form-control' type="email" placeholder="Enter your email">
             </div>
+
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" class="form-control" placeholder="Enter your password">
-                <small class="text-muted">Password must be 8 characters</small>
+                <input id='password' class='form-control' type="password" placeholder="Enter your password">
+                <small class='text-muted'>Password must be 10 chars</small>
             </div>
+
             <div class="form-group">
                 <label for="select">Select</label>
-                <select id="select" class="form-control">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                <select name="select" class='form-control' id="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+
                 </select>
             </div>
+
             <div class="form-group">
                 <label for="multiselect">Multi Select</label>
-                <select multiple id="multiselect" class="form-control">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                <select multiple name="multiselect" class='form-control' id="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
                 </select>
-                <small class="text-muted">Hold down ctrl(pc) or cmnd(mac) to select multiple</small>
+                <small class='text-muted'>Press CMD + click</small>
             </div>
+
             <div class="form-group">
-                <label for="textarea">Text Area</label>
-                <textarea id="textarea" class="form-control" rows="4"></textarea>
+
+                <label for="input">Select your file</label>
+                <input class='form-control-file' type="file">
+
             </div>
+
             <div class="form-group">
-                <label for="file">File Input</label>
-                <input type="file" class="form-control-file" id="file">
+
+                <input class='form-control-range' type="range">
             </div>
-            <div class="form-group">
-                <label for="formControlRange">Example Range input</label>
-                <input type="range" class="form-control-range" id="formControlRange">
-            </div>
-            <div class="form-group">
-                <label for="largeemail">Form Control Large</label>
-                <input type="email" id="largeemail" class="form-control form-control-lg" placeholder="Enter your email">
-            </div>
-            <div class="form-group">
-                <label for="smallemail">Form Control Small</label>
-                <input readonly type="email" id="smallemail" class="form-control form-control-sm" placeholder="Enter your email">
-            </div>
-            <input type="submit" value="Submit" class="btn btn-lg btn-primary">
+
+              <div class="form-group">
+                  <label for="email2">Email Address</label>
+                  <input id='email2' class='form-control form-control-lg' type="email" placeholder="Enter your email">
+              </div>
+
+               <div class="form-group">
+                   <label for="email3">Email Address</label>
+                   <input id='email3' class='form-control form-control-sm' type="email" placeholder="Enter your email">
+               </div>
+
+               <input type="submit" value="Submit" class='btn btn-info'>
+               
+               <div class="form-group">
+                   <label for="email3">Email Address</label>
+                   <input readonly id='email3' class='form-control form-control-sm' type="email" placeholder="Enter your email">
+               </div>
+
         </form>
+
+
     </div>
+   
 
 
 
